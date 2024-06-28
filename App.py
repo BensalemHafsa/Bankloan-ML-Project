@@ -2,7 +2,7 @@ import streamlit as st
 from sklearn.externals import joblib
 import pandas as pd
 
-
+joblib.dump(model, 'Classifier.pkl')
 model  =  joblib.load("Classifier.pkl")
 
 def predict(values):
