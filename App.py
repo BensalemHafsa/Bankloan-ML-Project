@@ -36,7 +36,7 @@ def main():
                                   "Securities.Account" : [feature9],
                                   "CD.Account" : [feature10],
                                   "Online" : [feature11],
-                                  "CreditCard" : [feature12],
+                                  "CreditCard" : [feature12]}
                                 
     if st.button("Predict"):
         prediction = predict(input_data)
